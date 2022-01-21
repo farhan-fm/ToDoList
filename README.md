@@ -18,5 +18,7 @@
     <li>status</li>
       </ul>
   </li>
-  <li></li>
+  <li>or you can import attach file in this project</li>
+  <li>run the login.php path</li>
   </ul>
+[todolist sql file.zip](https://github.com/farhan-fm/ToDoList/files/7916435/todolist.sql.file.zip)
