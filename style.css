@@ -55,18 +55,19 @@ body {
 
 .login-form {
     width: 30%; 
-    height: 11rem;
+    height: 15rem;
     padding: 10px;
-    margin: 0px 400px 400px 400px; 
+    margin: 0 auto;
+    position: relative;
     font-size: 18px; 
 	border-radius: 0px 0px 10px 10px; 
 	background: rgb(250, 248, 248);
 	border: 1px solid #6B8E23;
     box-sizing: border-box;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgba(229, 9, 9, 0.2);
 }
 
-.form-group {
+.form-group1 {
     font-size: 18px;
     padding: 5px;
 }
