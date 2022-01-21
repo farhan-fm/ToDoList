@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(221, 228, 209);
+    background-color: rgb(228, 215, 209);
 }
 
 .header {
@@ -8,8 +8,8 @@ body {
 	text-align: center;
     color: 	white;
     font-size: 25px;
-	background: green;
-	border: 1px solid #6B8E23;
+	background: orangered;
+	border: 1px solid orangered;
 	border-radius: 10px 10px 0px 0px;
     padding: 3px;
     box-sizing: border-box;
@@ -21,8 +21,8 @@ body {
 	text-align: center;
     color: 	white;
     font-size: 25px;
-	background: green;
-	border: 1px solid #6B8E23;
+	background: orangered;
+	border: 1px solid orangered;
 	border-radius: 10px 10px 0px 0px;
     padding: 3px;
     box-sizing: border-box;
@@ -30,15 +30,15 @@ body {
 
 .form {
     width: 30%; 
-    height: 18rem;
+    height: 29rem;
     padding: 10px;
-    margin: 0px 400px 400px 400px; 
+    margin: 0 auto;
     font-size: 18px; 
 	border-radius: 0px 0px 10px 10px; 
 	background: rgb(250, 248, 248);
-	border: 1px solid #6B8E23;
+	border: 1px solid orangered;
     box-sizing: border-box;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgba(229, 9, 9, 0.2);
 }
 
 .task-form {
@@ -49,7 +49,7 @@ body {
     font-size: 18px; 
 	border-radius: 0px 0px 10px 10px; 
 	background: rgb(250, 248, 248);
-	border: 1px solid #6B8E23;
+	border: 1px solid orangered;
     box-sizing: border-box;
 }
 
@@ -62,7 +62,7 @@ body {
     font-size: 18px; 
 	border-radius: 0px 0px 10px 10px; 
 	background: rgb(250, 248, 248);
-	border: 1px solid #6B8E23;
+	border: 1px solid orangered;
     box-sizing: border-box;
     box-shadow: 12px 12px 2px 1px rgba(229, 9, 9, 0.2);
 }
@@ -89,7 +89,7 @@ table {
 
 th {
     text-align: center;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid orangered;
 }
 
 tr {
@@ -102,8 +102,8 @@ a {
 
 input.logout {
     cursor: pointer;
-    background-color: green;
-    border: 1px solid green;
+    background-color: orangered;
+    border: 1px solid orangered;
     border-radius: 3px;
     margin-right: 0px;
     color: white;

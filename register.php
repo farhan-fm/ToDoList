@@ -13,31 +13,40 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Todo List</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor-front/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <link href="vendor-front/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="vendor-front/parsley/parsley.css"/>
+
 </head>
 <body>
-    <div class="header">
-        <h3>Sign Up</h3>
+    <div class="header" style="margin: 0 auto ; background: orangered">
+        <h2>ثبت نام</h2>
     </div>
     <form class="form" action="register.php" method="post">
         <div class="form-group">
-            <label for="username">Enter Username</label>
+            <label for="username" style="direction: rtl ; float: right">نام کاربری : </label>
             <input class="input" type="text" name="username">
         </div>
         <div class="form-group">
-            <label for="email">Enter Email</label>
+            <label for="email" style="direction: rtl ; float: right">ایمیل : </label>
             <input class="input" type="email" name="email">
         </div>
         <div class="form-group">
-            <label for="password">Enter Password</label>
+            <label for="password" style="direction: rtl ; float: right">رمز عبور : </label>
             <input class="input" type="password" name="password">
         </div>
         <div class="form-group">
-            <label for="passwordComf">Comfirm Password</label>
+            <label for="passwordComf" style="direction: rtl ; float: right">تایید رمز عبور : </label>
             <input class="input" type="password" name="passwordComf">
         </div>
-        <button type="submit" name="submit-user">Register</button>
+        <br/>
+        <button type="submit" class="btn btn-primary" style="margin: 0 180px ; position: relative" name="submit-user">ثبت نام</button>
         <div>
-            <a href="login.php">Log in</a> if you are a member already.
+            <a href="login.php" style="float: right">قبلا ثبت نام کرده اید؟</a>
         </div>
     </form>
 </body>

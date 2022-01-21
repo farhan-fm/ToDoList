@@ -54,8 +54,8 @@ session_start();
         </h4>
     </div>
 
-    <div class="task-header">
-        <h3>To-do List In PHP and MySQL</h3>
+    <div class="task-header" style="direction: rtl">
+        <h3>نرم افزار لیست todo با استفاده از php</h3>
     </div>
     
             <form class="task-form" action="tasks.php" method="post">
@@ -67,9 +67,9 @@ session_start();
     <table>
         <thead>
             <tr>
-                <th>Task ID</th>
-                <th>User ID</th>
-                <th>Task(s)</th>
+                <th>Task number</th>
+                <th>User name</th>
+                <th>Task</th>
                 <th>Action</th>
             </tr>
         </thead>
