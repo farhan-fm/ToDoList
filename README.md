@@ -19,6 +19,8 @@
       </ul>
   </li>
   <li>or you can import attach file in this project</li>
-  <li>run the login.php path</li>
+  <li>run the register.php path</li>
+  ![Capture](https://user-images.githubusercontent.com/67951406/150596481-dbe2e2db-18b9-42ab-94f2-bfef973879b3.JPG)
   </ul>
 [todolist sql file.zip](https://github.com/farhan-fm/ToDoList/files/7916435/todolist.sql.file.zip)
+
