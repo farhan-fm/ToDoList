@@ -28,7 +28,7 @@ include "includes/tasks_auth.php";
 
 <form action="tasks.php" method="post" style="width: 20% ; height: 100%">
     <div class="card-body" style="float: left">
-        <h3 style="direction: rtl ; float-displace: block ; position: relative ; alignment: center">
+        <h3 style="direction: rtl ; float: right ; position: center ; ">
             سلام <?php echo $_SESSION['username'] ?>خوش آمدید</h3>
         <input class="logout" type="submit" name="logout" value="خروج" style="margin: 0 20px ; position: relative">
         <div class="flash-message">
@@ -113,15 +113,9 @@ include "includes/tasks_auth.php";
     $filter = 1;
 
     $s_query = '';
-    echo "this is :" . $filter;
-    if ($filter == 4) {
-        $s_query = "SELECT * FROM tasks WHERE user_id=" . $_SESSION['user_id'] . " AND status =" . '"done"';
-    } else {
+
         $s_query = "SELECT * FROM tasks WHERE user_id=" . $_SESSION['user_id'];
-    }
-    //else if ($filter1 == 1) {
-    //    $s_query = "SELECT * FROM tasks WHERE user_id=" . $_SESSION['user_id'];
-    // }
+
 
 
     $s_result = mysqli_query($conn, $s_query);

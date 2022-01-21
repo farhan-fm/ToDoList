@@ -33,6 +33,12 @@ include "includes/edit_auth.php";
         <input type="text" style="width: 100%" name="task" value="<?php echo $task; ?>">
     </div>
     <br/>
+    <select name="status" type="text" style="float: left">
+        <option value=”todo”>ToDo</option>
+        <option value=”doing”>Doing</option>
+        <option value=”done”>Done</option>
+    </select>
+
     <br/>
     <button type="submit" class="btn btn-primary" style="margin: 0 200px ; position: relative" name="update-task"
     >تغییر
